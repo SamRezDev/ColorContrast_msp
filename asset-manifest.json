@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ColorContrast_msp/static/css/main.11f32493.chunk.css",
+    "main.js": "/ColorContrast_msp/static/js/main.a37d2f37.chunk.js",
+    "main.js.map": "/ColorContrast_msp/static/js/main.a37d2f37.chunk.js.map",
+    "runtime-main.js": "/ColorContrast_msp/static/js/runtime-main.019f57ab.js",
+    "runtime-main.js.map": "/ColorContrast_msp/static/js/runtime-main.019f57ab.js.map",
+    "static/js/2.8ecdb303.chunk.js": "/ColorContrast_msp/static/js/2.8ecdb303.chunk.js",
+    "static/js/2.8ecdb303.chunk.js.map": "/ColorContrast_msp/static/js/2.8ecdb303.chunk.js.map",
+    "static/js/3.e46b2118.chunk.js": "/ColorContrast_msp/static/js/3.e46b2118.chunk.js",
+    "static/js/3.e46b2118.chunk.js.map": "/ColorContrast_msp/static/js/3.e46b2118.chunk.js.map",
+    "index.html": "/ColorContrast_msp/index.html",
+    "static/css/main.11f32493.chunk.css.map": "/ColorContrast_msp/static/css/main.11f32493.chunk.css.map",
+    "static/js/2.8ecdb303.chunk.js.LICENSE.txt": "/ColorContrast_msp/static/js/2.8ecdb303.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.019f57ab.js",
+    "static/js/2.8ecdb303.chunk.js",
+    "static/css/main.11f32493.chunk.css",
+    "static/js/main.a37d2f37.chunk.js"
+  ]
+}
