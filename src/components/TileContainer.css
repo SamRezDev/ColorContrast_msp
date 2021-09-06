@@ -18,6 +18,7 @@
   border-radius: 25%;
 }
 .CloseButton:hover {
+  opacity: 0.8;
   cursor: pointer;
 }
 .MainContainer {
@@ -31,8 +32,11 @@
   font-size: 2.5rem;
   border-radius: 5%;
   width: 80%;
+  transition: 100ms ease-in-out;
 }
 .GenColorButton:hover {
   cursor: pointer;
   box-shadow: 5px;
+  transform: scale(1.05);
+  box-shadow: inset;
 }

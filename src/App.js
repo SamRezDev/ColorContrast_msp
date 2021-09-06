@@ -1,11 +1,12 @@
 import "./App.css";
 import { useState,useEffect } from "react";
-import TileContainer from "./container/TileContainer";
+import TileContainer from "./components/TileContainer";
 function App() {
   const [ContainerArray, setContainerArray] = useState([]);
-  const [AddElement, setAddElement] = useState()
+  const [AddElement, setAddElement] = useState(false)
   useEffect(() => {
-    AddContainer()
+    AddElement&& AddContainer()
+    
   }, [AddElement])
 function AddContainer(){
   var uniqid = Date.now();
@@ -22,7 +23,7 @@ function RemoveContainer(IdRemoved){
 }
   return (
     <div className="App">
-      <button className='AddContainerButton' onClick={() => AddElement?setAddElement(false):setAddElement(true)}> +</button>
+      <button title="Double click it!" className='AddContainerButton' onClick={() => AddElement?setAddElement(false):setAddElement(true)}> +</button>
       {ContainerArray.map( (element) => {return <TileContainer key={element.id} id={element.id} RemoveContainer={RemoveContainer} />} ) }
 
      
